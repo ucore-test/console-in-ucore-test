@@ -1,0 +1,10 @@
+/Users/lufei/Downloads/summer-camp/rCore-Tutorial-in-single-workspace/myconsole/target/riscv64gc-unknown-none-elf/debug/deps/lock_api-13e15c7ea406e48a.rmeta: /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/lib.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/mutex.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/remutex.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/rwlock.rs
+
+/Users/lufei/Downloads/summer-camp/rCore-Tutorial-in-single-workspace/myconsole/target/riscv64gc-unknown-none-elf/debug/deps/liblock_api-13e15c7ea406e48a.rlib: /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/lib.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/mutex.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/remutex.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/rwlock.rs
+
+/Users/lufei/Downloads/summer-camp/rCore-Tutorial-in-single-workspace/myconsole/target/riscv64gc-unknown-none-elf/debug/deps/lock_api-13e15c7ea406e48a.d: /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/lib.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/mutex.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/remutex.rs /Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/rwlock.rs
+
+/Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/lib.rs:
+/Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/mutex.rs:
+/Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/remutex.rs:
+/Users/lufei/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/lock_api-0.4.9/src/rwlock.rs:
