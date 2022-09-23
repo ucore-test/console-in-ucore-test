@@ -6,6 +6,11 @@
 ### 编译：
 进入rconre目录后进行编译，修改Cargo.toml，设置"crate-type"为“["staticlib"]”，然后使用命令“cargo build --target riscv64gc-unknown-none-elf”进行编译，可以得到“librconsole.a”静态库。
 
+在Cargo.toml添加“[lib]”的相关配置
+``[lib]
+``crate-type = ["staticlib"]
+``name = "rconsole"
+
 ### 测试：
 修改ucore项目代码，在main()函数中添加调用con_init()等函数的代码，要在C程序中调用rust实现的函数需要先通过extern关键字引入。
 将静态库拷贝到ucore项目中，修改Makefile，添加对静态库的编译，然后编译。
