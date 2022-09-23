@@ -8,11 +8,14 @@
 
 在Cargo.toml添加“[lib]”的相关配置
 
-``[lib]
+```
+[lib]
 
-``crate-type = ["staticlib"]
+crate-type = ["staticlib"]
 
-``name = "rconsole"
+name = "rconsole"
+
+```
 
 ### 测试：
 修改ucore项目代码，在main()函数中添加调用con_init()等函数的代码，要在C程序中调用rust实现的函数需要先通过extern关键字引入。
