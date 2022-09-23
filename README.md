@@ -3,6 +3,16 @@
 ### 功能描述：
 对rcore中的console模块进行了封装。为了避免对原本console模块的修改，增加了新的crate——rconsole。在rconsole中通过调用sbi模块中函数“console_putchar()”实现了console中定义的Console trait，然后定义了“con_init()”函数用于console的初始化，并定义了函数“info()”、“trace()”、“warn()”、“error()”对console中的相应函数进行了封装。
 
+对于暴露给ucore调用的函数需
+
+```rust
+#[no_mangle]
+pub extern "C" fn con_init(){
+    console::init_console(&Console);
+    log::set_max_level(log::LevelFilter::Trace);
+}
+```
+
 ### 编译：
 进入rconre目录后进行编译，修改Cargo.toml，设置"crate-type"为“["staticlib"]”，然后使用命令“cargo build --target riscv64gc-unknown-none-elf”进行编译，可以得到“librconsole.a”静态库。
 
