@@ -7,8 +7,11 @@
 进入rconre目录后进行编译，修改Cargo.toml，设置"crate-type"为“["staticlib"]”，然后使用命令“cargo build --target riscv64gc-unknown-none-elf”进行编译，可以得到“librconsole.a”静态库。
 
 在Cargo.toml添加“[lib]”的相关配置
+
 ``[lib]
+
 ``crate-type = ["staticlib"]
+
 ``name = "rconsole"
 
 ### 测试：
